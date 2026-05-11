@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{91719697-921F-41C1-A23F-2E2043654C49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6C84E6A1-511F-4EA8-AFAB-8099199AB8DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanWebApiTemplate.Api", "src\CleanWebApiTemplate.Api\CleanWebApiTemplate.Api.csproj", "{2A2283BD-3C6D-42B4-BC2A-23D32D31A544}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanWebApiTemplate.Application", "src\CleanWebApiTemplate.Application\CleanWebApiTemplate.Application.csproj", "{64EAA1E9-22B7-4F78-8F2D-D5AF4DE8E7FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanWebApiTemplate.Domain", "src\CleanWebApiTemplate.Domain\CleanWebApiTemplate.Domain.csproj", "{F15BD3FE-8416-4077-80E8-0D216A5B6A7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanWebApiTemplate.Infrastructure", "src\CleanWebApiTemplate.Infrastructure\CleanWebApiTemplate.Infrastructure.csproj", "{862F59C8-9F2C-49DB-884B-DEA51D3831AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A2283BD-3C6D-42B4-BC2A-23D32D31A544} = {91719697-921F-41C1-A23F-2E2043654C49}
+		{64EAA1E9-22B7-4F78-8F2D-D5AF4DE8E7FB} = {91719697-921F-41C1-A23F-2E2043654C49}
+		{F15BD3FE-8416-4077-80E8-0D216A5B6A7A} = {91719697-921F-41C1-A23F-2E2043654C49}
+		{862F59C8-9F2C-49DB-884B-DEA51D3831AB} = {91719697-921F-41C1-A23F-2E2043654C49}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A2283BD-3C6D-42B4-BC2A-23D32D31A544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A2283BD-3C6D-42B4-BC2A-23D32D31A544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A2283BD-3C6D-42B4-BC2A-23D32D31A544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A2283BD-3C6D-42B4-BC2A-23D32D31A544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64EAA1E9-22B7-4F78-8F2D-D5AF4DE8E7FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64EAA1E9-22B7-4F78-8F2D-D5AF4DE8E7FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64EAA1E9-22B7-4F78-8F2D-D5AF4DE8E7FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64EAA1E9-22B7-4F78-8F2D-D5AF4DE8E7FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F15BD3FE-8416-4077-80E8-0D216A5B6A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F15BD3FE-8416-4077-80E8-0D216A5B6A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F15BD3FE-8416-4077-80E8-0D216A5B6A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F15BD3FE-8416-4077-80E8-0D216A5B6A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{862F59C8-9F2C-49DB-884B-DEA51D3831AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{862F59C8-9F2C-49DB-884B-DEA51D3831AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{862F59C8-9F2C-49DB-884B-DEA51D3831AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{862F59C8-9F2C-49DB-884B-DEA51D3831AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,55 @@
+# Build outputs
+bin/
+obj/
+out/
+artifacts/
+TestResults/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# IDE files
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Rider/ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# Logs
+*.log
+logs/
+
+# Environment and local secrets
+appsettings.Local.json
+appsettings.*.local.json
+secrets.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+*.coverage
+*.coveragexml
+coverage.cobertura.xml
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+project.assets.json
+
+# Docker/local data
+.docker/
+docker-data/
+postgres-data/
+redis-data/
