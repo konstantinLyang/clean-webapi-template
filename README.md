@@ -7,7 +7,7 @@ The project is intended to be cloned as a base for new services. It currently de
 - RBAC: users, roles, and permissions
 - Entity Framework Core with manual entity configuration
 - Redis-based caching
-- Logging
+- Serilog Logging
 - Onion/Clean Architecture fundamentals
 - Security for password and insecure data
 
