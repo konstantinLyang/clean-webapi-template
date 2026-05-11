@@ -1,6 +1,6 @@
 # CleanWebApiTemplate
 
-A starter ASP.NET Core Web API template with a Clean Architecture-inspired structure.
+A starter ASP.NET Core Web API template with a Clean Architecture structure.
 
 The project is intended to be cloned as a base for new services. It currently defines the main layers and domain shape for:
 
@@ -9,6 +9,7 @@ The project is intended to be cloned as a base for new services. It currently de
 - Redis-based caching
 - Logging
 - Onion/Clean Architecture fundamentals
+- Security for password and insecure data
 
 ## Project Structure
 
@@ -25,6 +26,7 @@ src/
 - .NET 10 SDK
 - PostgreSQL
 - Redis
+- Docker (optional)
 
 ## Getting Started
 
@@ -38,14 +40,6 @@ Local development defaults are stored in:
 
 ```text
 src/CleanWebApiTemplate.Api/appsettings.Development.json
-```
-
-For real secrets, prefer ASP.NET Core user secrets:
-
-```bash
-dotnet user-secrets init --project src/CleanWebApiTemplate.Api/CleanWebApiTemplate.Api.csproj
-dotnet user-secrets set "Jwt:Secret" "replace-with-a-long-random-local-secret" --project src/CleanWebApiTemplate.Api/CleanWebApiTemplate.Api.csproj
-dotnet user-secrets set "ConnectionStrings:DefaultConnection" "Host=localhost;Port=5432;Database=clean_web_api_template;Username=postgres;Password=postgres" --project src/CleanWebApiTemplate.Api/CleanWebApiTemplate.Api.csproj
 ```
 
 Build the solution:
@@ -97,15 +91,3 @@ The solution builds, but the infrastructure and feature slices are still early-s
 - Implement Redis cache service
 - Add global exception handling and structured logging
 - Add example controllers/use cases and tests
-
-## Useful Commands
-
-```bash
-dotnet build CleanWebApiTemplate.sln
-dotnet test CleanWebApiTemplate.sln
-dotnet run --project src/CleanWebApiTemplate.Api/CleanWebApiTemplate.Api.csproj
-```
-
-## License
-
-Add a license before publishing this repository as a public GitHub template.
