@@ -1,5 +1,7 @@
 # CleanWebApiTemplate
 
+[Русская версия](README.ru.md)
+
 A starter ASP.NET Core Web API template with a Clean Architecture-inspired structure.
 
 The project is intended to be cloned as a base for new services. It currently defines the main layers and domain shape for:
